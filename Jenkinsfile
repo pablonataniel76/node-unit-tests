@@ -7,7 +7,7 @@ pipeline {
             steps {
                 script {
                     node {
-                        println "Mi primer pipeline"
+                        println "Mi primer pipeline en git"
                     }
                 }
             }    
