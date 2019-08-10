@@ -2,7 +2,7 @@ pipeline {
     
     agent none;
     
-    enviroment {
+    environment {
         myUsername = "PabloNataniel"
     }
     
