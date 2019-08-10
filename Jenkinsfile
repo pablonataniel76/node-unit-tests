@@ -2,6 +2,10 @@ pipeline {
     
     agent none;
     
+    enviorement {
+        myUsername = "PabloNataniel"
+    }
+    
     stages {
         stage ("Build") {
             steps {
