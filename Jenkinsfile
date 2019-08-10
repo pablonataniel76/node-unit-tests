@@ -12,6 +12,7 @@ pipeline {
                 script {
                     node {
                         println "Mi primer pipeline en git"
+                        echo "Nombre de usuario ${myUsername}"
                     }
                 }
             }    
